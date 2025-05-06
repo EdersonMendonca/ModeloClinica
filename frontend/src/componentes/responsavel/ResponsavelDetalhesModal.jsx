@@ -90,7 +90,7 @@ const ResponsavelDetalhesModal = ({ show, onHide, responsavel, onSave }) => {
               </Col>
               <Col md={4}>
                 <Form.Group className="mb-3 text-start">
-                  <Form.Label>Número do Benefício</Form.Label>
+                  <Form.Label>Grau Parentesco </Form.Label>
                   <Form.Control
                     type="text"
                     name="numeroBeneficio"
@@ -101,7 +101,7 @@ const ResponsavelDetalhesModal = ({ show, onHide, responsavel, onSave }) => {
               </Col>
               <Col md={4}>
                 <Form.Group className="mb-3 text-start">
-                  <Form.Label>Turma</Form.Label>
+                  <Form.Label>Grau Escolaridade</Form.Label>
                   <Form.Control
                     type="text"
                     name="responsavelTurma"
