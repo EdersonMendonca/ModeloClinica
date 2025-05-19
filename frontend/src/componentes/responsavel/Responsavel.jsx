@@ -239,7 +239,7 @@ function FormularioResponsavel({ show, onHide, onResponsavelsAtualizados }) {
               </Col>
               <Col md={4}>
                 <Form.Group className="mb-3 text-start">
-                  <Form.Label>Número do Benefício</Form.Label>
+                  <Form.Label>Grau de Escolaridade</Form.Label>
                   <Form.Control
                     type="text"
                     name="numeroBeneficio"
@@ -250,7 +250,7 @@ function FormularioResponsavel({ show, onHide, onResponsavelsAtualizados }) {
               </Col>
               <Col md={4}>
                 <Form.Group className="mb-3 text-start">
-                  <Form.Label>Turma</Form.Label>
+                  <Form.Label>Grau Parentesco</Form.Label>
                   <Form.Control
                     type="text"
                     name="responsavelTurma"
